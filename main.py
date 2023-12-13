@@ -73,7 +73,7 @@ class FreeWindow:
                 marker_time = str(start_)[11:16]
                 if result['stop'] <= i['stop']:
                     working_windows.append(result)
-        return working_windows
+        print(working_windows)
                 
 
 busy = [
